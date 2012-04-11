@@ -1,4 +1,8 @@
 Myapp::Application.routes.draw do
+  get "demo/index"
+
+  root :to => "demo#index"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
